@@ -2,10 +2,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Proj1.Model.Context;
 using Proj1.Services.Implementations;
 using System;
 using System.Collections.Generic;
@@ -28,6 +30,8 @@ namespace Proj1
         {
 
             services.AddControllers();
+            var connection = Configuration["MySQLConection:MySQLConectionString"];
+            services.AddDbContext<MySQLContext>(options => options.UseMySql(connection, ServerVersion.AutoDetect(connection)));
             services.AddScoped<IPersonService, PersonServiceImplementation>();
         }
 

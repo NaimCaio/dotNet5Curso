@@ -1,4 +1,5 @@
 ﻿using Proj1.Model;
+using Proj1.Model.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,61 +10,89 @@ namespace Proj1.Services.Implementations
 {
     public class PersonServiceImplementation : IPersonService
     {
-        private volatile int count;
+        private MySQLContext _context ;
 
+       
+
+        public PersonServiceImplementation(MySQLContext context)
+        {
+            _context = context;
+        }
+
+        public List<Person> FindAll()
+        {
+
+            return _context.Persons.ToList();
+        }
+
+        public Person FindById(long id)
+        {
+            return _context.Persons.SingleOrDefault(p => p.Id == id);
+        }
         public Person Create(Person person)
         {
+            try
+            {
+                _context.Add(person);
+                _context.SaveChanges();
+            }
+            catch (Exception )
+            {
+
+                throw ;
+            }
             return person;
         }
 
         public void Delete(long id)
         {
-           
-        }
-
-        public List<Person> FindAll()
-        {
-            List<Person> persons = new List<Person>();
-            for ( int i =0; i<8; i++)
+            var result = _context.Persons.SingleOrDefault(p => p.Id == id);
+            if(result != null)
             {
-                Person person = buildPerson(i);
-                persons.Add(person);
+                try
+                {
+                    _context.Persons.Remove(result);
+                    _context.SaveChanges();
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
             }
-            return persons;
+
         }
 
-        private Person buildPerson(int i)
-        {
-            return new Person
-            {
-                Id = IncrementAndGet(),
-                FirstName = "Name"+ i,
-                LastName = "LastName" + i,
-                Gender = "Male"+ i,
-                Address = "R. Araguaia"
-            };
-        }
-
-        private long IncrementAndGet()
-        {
-            return Interlocked.Increment(ref count);
-        }
-
-        public Person FindById(long id)
-        {
-            return new Person
-            {
-                Id = 1,
-                FirstName = "Caio",
-                LastName = "Naim",
-                Gender = "Male",
-                Address = "R. Araguaia"
-            };
-        }
+        
 
         public Person Update(Person person)
         {
+            if (!Exists(person.Id))
+            {
+                return new Person();
+            }
+
+            var result =_context.Persons.SingleOrDefault(p => p.Id == person.Id);
+
+
+            try
+            {
+                _context.Entry(result).CurrentValues.SetValues(person);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
             return person;
+        }
+
+
+
+        private bool Exists(long id)
+        {
+            return _context.Persons.Any(p => p.Id == id);
         }
     }
 }

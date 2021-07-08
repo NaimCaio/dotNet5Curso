@@ -21,3 +21,11 @@ C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\ref\Proj1.dll
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.pdb
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.genruntimeconfig.cache
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.csproj.CopyComplete
