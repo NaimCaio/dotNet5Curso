@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NaHpbK9Im5cDZgXn2EdpvKRqFWmOTRoYLVHi4K7CJXbyTLH0TqkrzBfFj3ZKzREiOP3/3q30XrFStlLvX54DnA==",
+  "dgSpecHash": "42+Kkxv27wwx97P7gtS0OZaIZtgaG+TvL/BPEUv781LGbyvSXzqkRKzuJYx9pn03ixqcifJhKAv49ZrD9rhAqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\caio\\Documents\\cursoDotNet\\Projetos\\dotNet5Curso\\Proj1\\Proj1\\Proj1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.7\\microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",

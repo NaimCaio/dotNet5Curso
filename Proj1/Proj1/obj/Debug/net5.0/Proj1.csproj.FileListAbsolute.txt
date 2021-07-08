@@ -29,3 +29,5 @@ C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.csproj.CopyComplete
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.MvcApplicationPartsAssemblyInfo.cs

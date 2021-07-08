@@ -31,7 +31,11 @@ namespace Proj1
 
             services.AddControllers();
             var connection = Configuration["MySQLConection:MySQLConectionString"];
+            
             services.AddDbContext<MySQLContext>(options => options.UseMySql(connection, ServerVersion.AutoDetect(connection)));
+            
+            services.AddApiVersioning();
+            
             services.AddScoped<IPersonService, PersonServiceImplementation>();
         }
 
