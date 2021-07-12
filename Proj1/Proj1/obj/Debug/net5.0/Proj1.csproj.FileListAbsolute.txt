@@ -31,3 +31,17 @@ C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.csproj.CopyComplete
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\obj\Debug\net5.0\Proj1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Evolve.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\caio\Documents\cursoDotNet\Projetos\dotNet5Curso\Proj1\Proj1\bin\Debug\net5.0\MySql.Data.DLL

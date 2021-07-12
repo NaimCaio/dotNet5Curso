@@ -1,4 +1,5 @@
-﻿using Proj1.Model;
+﻿using Proj1.Business;
+using Proj1.Model;
 using Proj1.Model.Context;
 using System;
 using System.Collections.Generic;
@@ -6,15 +7,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Proj1.Services.Implementations
+namespace Proj1.Repository.Implementations
 {
-    public class PersonServiceImplementation : IPersonService
+    public class PersonRepositoryImplementation : IPersonRepository
     {
         private MySQLContext _context ;
 
        
 
-        public PersonServiceImplementation(MySQLContext context)
+        public PersonRepositoryImplementation(MySQLContext context)
         {
             _context = context;
         }
@@ -69,7 +70,7 @@ namespace Proj1.Services.Implementations
         {
             if (!Exists(person.Id))
             {
-                return new Person();
+                return null;
             }
 
             var result =_context.Persons.SingleOrDefault(p => p.Id == person.Id);
@@ -90,9 +91,11 @@ namespace Proj1.Services.Implementations
 
 
 
-        private bool Exists(long id)
+        public bool Exists(long id)
         {
             return _context.Persons.Any(p => p.Id == id);
         }
+
+        
     }
 }

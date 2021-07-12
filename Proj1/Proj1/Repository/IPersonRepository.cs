@@ -1,9 +1,10 @@
 ﻿using Proj1.Model;
 using System.Collections.Generic;
 
-namespace Proj1.Services.Implementations
+namespace Proj1.Repository
+
 {
-    public interface IPersonService
+    public interface IPersonRepository
     {
         Person Create(Person person );
         Person FindById(long id);
@@ -13,5 +14,7 @@ namespace Proj1.Services.Implementations
         Person Update(Person person);
 
         void Delete(long id);
+
+        bool Exists(long id);
     }
 }
